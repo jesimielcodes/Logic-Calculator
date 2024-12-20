@@ -15,11 +15,11 @@ input = Entry(root, width=45, font=("Trebuchet Ms", 16))
 input.grid(row=0, column=0, columnspan=3, padx=5, pady=5)
 
 
-truthValues = {'p': True, 'q': True, 'r': True, 's': True, 't': True}
+truthValues = { 'p': True, 'q': True, 'r': True, 's': True, 't': True}
 
 
 def button_click(char):
-    #input.delete(0, END)
+    input.delete(0, END)
     current = input.get()
     input.delete(0, END)
     input.insert(0, str(current) + str(char))
@@ -46,7 +46,7 @@ def button_disjunction(char):
     global operator
     operator = "disjunction"
     f_truth_value = get_truth_value(first_variable)
-    #input.delete(0, END)
+    input.delete(0, END)
 
 
 def button_conjunction(char):
@@ -58,7 +58,7 @@ def button_conjunction(char):
     global operator
     operator = "conjunction"
     f_truth_value = get_truth_value(first_variable)
-    #input.delete(0, END)
+    input.delete(0, END)
 
 
 def button_exclusive_or(char):
@@ -70,7 +70,7 @@ def button_exclusive_or(char):
     global operator
     operator = "exclusive or"
     f_truth_value = get_truth_value(first_variable)
-    #input.delete(0,END)
+    input.delete(0,END)
 
 
 def button_implication(char):
@@ -82,7 +82,7 @@ def button_implication(char):
     global operator
     operator = "implication"
     f_truth_value = get_truth_value(first_variable)
-    #input.delete(0, END)
+    input.delete(0, END)
 
 def button_biconditional(char):
     current = input.get()
@@ -93,7 +93,7 @@ def button_biconditional(char):
     global operator
     operator = "biconditional"
     f_truth_value = get_truth_value(first_variable)
-    #input.delete(0, END)
+    input.delete(0, END)
 
 
 def button_equivalent():
