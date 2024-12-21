@@ -2,7 +2,7 @@
 
 ###
 
-<h1 align="center">🧮 Logic Calculator Chronicles 🧮</h1>
+<h1 align="center">🧮 LogiCalc 🧮</h1>
 
 ###
 
@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">-Build a valid interface for effortless input and evaluation of logical expressions.<br>-Allow users to deduce simple truths and analyze complex propositions.<br>-Offer tools to break down logical expressions into comprehesible components</p>
+<p align="left">-Build a valid interface for effortless input and evaluation of logical expressions.<br>-Allow users to deduce simple truths and analyze complex propositions.<br>-Offer tools to break down logical expressions into comprehensible components</p>
 
 ###
 
@@ -42,7 +42,7 @@
 
 ###
 
-<p align="left">1) Functions to evaluate logic and generate truth tables<br>2) Control Flow with if-else lofic for processing user inputs<br>3) Iteration (Loops for managing data input, parsing and truth table creeation<br>4) Exception handling<br>5) Data Structures (lists and dictionaries) to store variables and results</p>
+<p align="left">1) Functions to evaluate the logic and generate truth tables<br>2) Control Flow with if-else logic for processing user inputs<br>3) Iteration (Loops for managing data input, parsing and truth table creeation<br>4) Exception handling<br>5) Data Structures (lists and dictionaries) to store variables and results</p>
 
 ###
 
